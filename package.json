@@ -1,0 +1,48 @@
+{
+  "name": "ccss",
+  "version": "0.0.1",
+  "description": "Get the Critical CSS of the specified page",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwq27/grunt-ccss-gen"
+  },
+  "bugs": "https://github.com/mwq27/grunt-ccss-gen/issues",
+  "author": {
+    "name": "Marques Woodson",
+    "email": "marques.woodson@gmail.com",
+    "url": "www.marqueswoodson.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "grunt-lib-phantomjs": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.0rc2",
+    "load-grunt-tasks": "~0.2.0",
+    "jshint-stylish": "~0.1.3",
+    "grunt-lib-phantomjs": "~0.3.0",
+    "matchdep": "~0.3.0",
+    "phantomjs": "1.9.0-1"
+  },
+  "peerDependencies": {
+    "grunt-lib-phantomjs": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
